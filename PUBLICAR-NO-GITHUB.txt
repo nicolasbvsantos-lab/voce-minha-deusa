@@ -1,0 +1,4 @@
+Repositório: https://github.com/boaventuraheni-max/deusa
+Copie o CONTEÚDO deste ZIP para a raiz da branch main (não envie a pasta ZIP como um único arquivo).
+Em Settings > Pages, selecione Deploy from a branch, main e /(root).
+URL: https://boaventuraheni-max.github.io/deusa/

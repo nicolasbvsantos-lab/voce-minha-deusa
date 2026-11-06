@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você, Minha Deusa</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <main class="container">
+        <section class="hero-banner">
+            <div class="imagem-wrapper">
+                <img src="assets/imagens/deusa/IMG-20261009-WA0006.jpg" alt="Casal em evento com iluminação azul" class="foto-principal">
+                <div class="overlay-titulo">
+                    <h1>Você, MINHA deusa</h1>
+                    <div class="coracao-badge" aria-hidden="true">❤️</div>
+                </div>
+            </div>
+        </section>
+        <section class="efeito-container">
+            <div id="canvas-particulas-container">
+                <canvas id="canvas-coracao"></canvas>
+            </div>
+            <p class="frase-efeito" id="frase-te-amo">Te amo</p>
+        </section>
+        <section class="area-musical">
+            <h2>Nossa Musica, bebezinha</h2>
+            <div class="player-custom">
+                <audio id="audio-player" src="assets/audio/musica.mp3" preload="metadata" loop>
+                    Seu navegador não suporta a reprodução de áudio.
+                </audio>
+                <div class="controles">
+                    <button id="btn-play-pause" class="btn-audio" aria-label="Como te vejo?">
+                        <span id="icone-play">▶ Reproduzir</span>
+                    </button>
+                </div>
+                <div class="info-musica" aria-live="polite">
+                    <span id="tempo-atual">0:00</span> / <span id="tempo-total">0:00</span>
+                    <p id="status-audio" class="status-audio">Meu bem, clica ai consifa ;).</p>
+                </div>
+            </div>
+            <div class="letra-musica-container">
+                <p class="verso">Você é minha musa</p>
+                <p class="verso">Você me encanta</p>
+                <p class="verso">Te toco igual música</p>
+                <p class="verso destaque-letra">Nada é de graça</p>
+                <p class="verso">Quando o nosso tempo passa, amor</p>
+                <p class="verso destaque-letra">Nada é de graça</p>
+                <p class="verso final-letra">Então para de graça, amor ❤️</p>
+            </div>
+        </section>
+    </main>
+    <nav class="menu-inferior" aria-label="Navegação Principal">
+        <a href="index.html" class="item-menu ativo" aria-current="page"><span class="icone">👑</span><span class="rotulo">Deusa</span></a>
+        <a href="paginas/memorias.html" class="item-menu"><span class="icone">🖼️</span><span class="rotulo">Fotos dela</span></a>
+        <a href="paginas/poema.html" class="item-menu"><span class="icone">📜</span><span class="rotulo">Poema</span></a>
+        <a href="paginas/historia.html" class="item-menu"><span class="icone">📖</span><span class="rotulo">Carta</span></a>
+    </nav>
+    <script src="js/navegacao.js"></script>
+    <script src="js/efeitos.js"></script>
+    <script src="js/animacoes.js"></script>
+</body>
+</html>

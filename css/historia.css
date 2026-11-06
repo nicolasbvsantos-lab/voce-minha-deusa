@@ -1,0 +1,8 @@
+.historia-card { background-color: var(--cor-superficie); padding: 30px 20px; border-radius: 12px; border: 1px solid var(--cor-borda); }
+.historia-card h1 { color: var(--cor-destaque-principal); font-size: 1.6rem; margin-bottom: 25px; text-align: center; }
+.bloco-texto { margin-bottom: 25px; }
+.bloco-texto h2 { color: var(--cor-destaque-secundario); font-size: 1.2rem; margin-bottom: 8px; }
+.bloco-texto p { color: var(--cor-texto-secundario); font-size: 1.05rem; }
+.destaque-final { text-align: center; margin-top: 35px; padding-top: 20px; border-top: 1px dashed var(--cor-borda); }
+.mensagem-conclusao { color: var(--cor-texto-principal); font-weight: bold; font-size: 1.15rem; }
+.brilho-encerramento { margin-top: 15px; font-size: 1.3rem; }

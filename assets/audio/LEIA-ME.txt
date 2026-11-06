@@ -1,0 +1,11 @@
+Adicione nesta pasta o arquivo de áudio com o nome:
+
+musica.mp3
+
+O caminho esperado pelo projeto é:
+assets/audio/musica.mp3
+
+O arquivo MP3 original não estava incluído no ZIP recebido. Depois de adicioná-lo,
+abra o index.html pelo navegador ou execute o projeto em um servidor local.
+A reprodução começa somente após o clique no botão, pois navegadores normalmente
+bloqueiam áudio automático com som.
