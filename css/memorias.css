@@ -13,4 +13,6 @@
 .pos-3 { transform: rotate(-3deg); }
 .pos-4 { transform: rotate(2deg); }
 .pos-5 { transform: rotate(-1deg); }
+.pos-6 { transform: rotate(-2.5deg); }
+.pos-7 { transform: rotate(1.5deg); }
 .polaroid:hover { transform: scale(1.02) rotate(0deg); z-index: 5; }
