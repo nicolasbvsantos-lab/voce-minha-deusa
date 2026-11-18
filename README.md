@@ -1,1 +1,0 @@
-# voce-minha-deusa
